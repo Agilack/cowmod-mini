@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name cowmod-mini)(type KiCad)(uri ${KIPRJMOD}/cowmod-mini.pretty)(options "")(descr ""))
+)

@@ -1,0 +1,191 @@
+EESchema Schematic File Version 4
+LIBS:cowmod-mini-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Cowmod Mini"
+Date "2020-02-03"
+Rev "1"
+Comp "Agilack"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L cowmod-mini:PMOD P1
+U 1 1 5E37F523
+P 9700 1950
+F 0 "P1" H 9900 2300 60  0000 C CNN
+F 1 "PMOD" H 9950 1600 60  0000 C CNN
+F 2 "cowmod-mini:PMOD_SSW106-RA" H 9700 1950 60  0001 C CNN
+F 3 "" H 9700 1950 60  0000 C CNN
+	1    9700 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L cowmod-mini:+PMOD1 #PWR0101
+U 1 1 5E37F5B0
+P 9700 1450
+F 0 "#PWR0101" H 9700 1410 30  0001 C CNN
+F 1 "+PMOD1" H 9709 1588 30  0000 C CNN
+F 2 "" H 9700 1450 60  0000 C CNN
+F 3 "" H 9700 1450 60  0000 C CNN
+	1    9700 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 1450 9700 1500
+Wire Wire Line
+	9700 1500 9650 1500
+Wire Wire Line
+	9650 1500 9650 1550
+Wire Wire Line
+	9700 1500 9750 1500
+Wire Wire Line
+	9750 1500 9750 1550
+Connection ~ 9700 1500
+Wire Wire Line
+	9700 2450 9700 2400
+Wire Wire Line
+	9700 2400 9650 2400
+Wire Wire Line
+	9650 2400 9650 2350
+Wire Wire Line
+	9700 2400 9750 2400
+Wire Wire Line
+	9750 2400 9750 2350
+Connection ~ 9700 2400
+$Comp
+L cowmod-mini:GND #PWR0102
+U 1 1 5E37F685
+P 9700 2450
+F 0 "#PWR0102" H 9700 2450 30  0001 C CNN
+F 1 "GND" H 9700 2380 30  0001 C CNN
+F 2 "" H 9700 2450 60  0000 C CNN
+F 3 "" H 9700 2450 60  0000 C CNN
+	1    9700 2450
+	1    0    0    -1  
+$EndComp
+Text GLabel 9250 1800 0    45   BiDi ~ 0
+P1_IO1
+Text GLabel 9250 1900 0    45   BiDi ~ 0
+P1_IO2
+Text GLabel 9250 2000 0    45   BiDi ~ 0
+P1_IO3
+Text GLabel 9250 2100 0    45   BiDi ~ 0
+P1_IO4
+Wire Wire Line
+	9250 2100 9350 2100
+Wire Wire Line
+	9350 2000 9250 2000
+Wire Wire Line
+	9250 1900 9350 1900
+Wire Wire Line
+	9350 1800 9250 1800
+Wire Wire Line
+	10150 1800 10050 1800
+Wire Wire Line
+	10150 1900 10050 1900
+Wire Wire Line
+	10150 2000 10050 2000
+Wire Wire Line
+	10150 2100 10050 2100
+Text GLabel 10150 1800 2    45   BiDi ~ 0
+P1_IO5
+Text GLabel 10150 1900 2    45   BiDi ~ 0
+P1_IO6
+Text GLabel 10150 2000 2    45   BiDi ~ 0
+P1_IO7
+Text GLabel 10150 2100 2    45   BiDi ~ 0
+P1_IO8
+$Comp
+L cowmod-mini:PMOD P2
+U 1 1 5E37FDC0
+P 9700 3950
+F 0 "P2" H 9900 4300 60  0000 C CNN
+F 1 "PMOD" H 9950 3600 60  0000 C CNN
+F 2 "cowmod-mini:PMOD_SSW106-RA" H 9700 3950 60  0001 C CNN
+F 3 "" H 9700 3950 60  0000 C CNN
+	1    9700 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 3450 9700 3500
+Wire Wire Line
+	9700 3500 9650 3500
+Wire Wire Line
+	9650 3500 9650 3550
+Wire Wire Line
+	9700 3500 9750 3500
+Wire Wire Line
+	9750 3500 9750 3550
+Connection ~ 9700 3500
+$Comp
+L cowmod-mini:+PMOD2 #PWR0103
+U 1 1 5E380219
+P 9700 3450
+F 0 "#PWR0103" H 9700 3410 30  0001 C CNN
+F 1 "+PMOD2" H 9709 3588 30  0000 C CNN
+F 2 "" H 9700 3450 60  0000 C CNN
+F 3 "" H 9700 3450 60  0000 C CNN
+	1    9700 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 4450 9700 4400
+Wire Wire Line
+	9700 4400 9650 4400
+Wire Wire Line
+	9650 4400 9650 4350
+Wire Wire Line
+	9700 4400 9750 4400
+Wire Wire Line
+	9750 4400 9750 4350
+Connection ~ 9700 4400
+$Comp
+L cowmod-mini:GND #PWR0104
+U 1 1 5E3807D8
+P 9700 4450
+F 0 "#PWR0104" H 9700 4450 30  0001 C CNN
+F 1 "GND" H 9700 4380 30  0001 C CNN
+F 2 "" H 9700 4450 60  0000 C CNN
+F 3 "" H 9700 4450 60  0000 C CNN
+	1    9700 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 9250 3800 0    45   BiDi ~ 0
+P2_IO1
+Wire Wire Line
+	9250 3800 9350 3800
+Wire Wire Line
+	9250 3900 9350 3900
+Wire Wire Line
+	9250 4000 9350 4000
+Wire Wire Line
+	9250 4100 9350 4100
+Text GLabel 9250 3900 0    45   BiDi ~ 0
+P2_IO2
+Text GLabel 9250 4000 0    45   BiDi ~ 0
+P2_IO3
+Text GLabel 9250 4100 0    45   BiDi ~ 0
+P2_IO4
+Text GLabel 10150 3800 2    45   BiDi ~ 0
+P2_IO5
+Text GLabel 10150 3900 2    45   BiDi ~ 0
+P2_IO6
+Text GLabel 10150 4000 2    45   BiDi ~ 0
+P2_IO7
+Text GLabel 10150 4100 2    45   BiDi ~ 0
+P2_IO8
+Wire Wire Line
+	10150 4100 10050 4100
+Wire Wire Line
+	10050 4000 10150 4000
+Wire Wire Line
+	10150 3900 10050 3900
+Wire Wire Line
+	10050 3800 10150 3800
+$EndSCHEMATC
