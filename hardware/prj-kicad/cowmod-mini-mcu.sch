@@ -1,0 +1,390 @@
+EESchema Schematic File Version 4
+LIBS:cowmod-mini-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title "Cowmod mini"
+Date ""
+Rev "1"
+Comp "Agilack"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L cowmod-mini:STM32F750V8 U1
+U 1 1 5E3ADC44
+P 3350 2350
+F 0 "U1" H 3350 3300 60  0000 C CNN
+F 1 "STM32F750V8" H 3350 1450 45  0000 C CNN
+F 2 "cowmod-mini:TQFP100" H 3350 2350 60  0001 C CNN
+F 3 "" H 3350 2350 60  0000 C CNN
+	1    3350 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L cowmod-mini:STM32F750V8 U1
+U 2 1 5E3AB302
+P 6300 2350
+F 0 "U1" H 6300 3365 60  0000 C CNN
+F 1 "STM32F750V8" H 6300 3270 45  0000 C CNN
+F 2 "cowmod-mini:TQFP100" H 6300 2350 60  0001 C CNN
+F 3 "" H 6300 2350 60  0000 C CNN
+	2    6300 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 7050 3000 2    45   BiDi ~ 0
+FMC_AD0
+Wire Wire Line
+	7050 3000 6950 3000
+Wire Wire Line
+	7050 3100 6950 3100
+Text GLabel 7050 3100 2    45   BiDi ~ 0
+FMC_AD1
+Text GLabel 7050 1600 2    50   BiDi ~ 0
+FMC_AD2
+Wire Wire Line
+	7050 1600 6950 1600
+Wire Wire Line
+	7050 1700 6950 1700
+Text GLabel 7050 1700 2    50   BiDi ~ 0
+FMC_AD3
+$Comp
+L cowmod-mini:STM32F750V8 U1
+U 3 1 5E3B0AAE
+P 9300 2400
+F 0 "U1" H 9300 3015 60  0000 C CNN
+F 1 "STM32F750V8" H 9300 2920 45  0000 C CNN
+F 2 "cowmod-mini:TQFP100" H 9300 2400 60  0001 C CNN
+F 3 "" H 9300 2400 60  0000 C CNN
+	3    9300 2400
+	1    0    0    -1  
+$EndComp
+Text GLabel 8550 2750 0    45   BiDi ~ 0
+FMC_AD4
+Wire Wire Line
+	8550 2750 8650 2750
+Wire Wire Line
+	10050 2050 9950 2050
+Wire Wire Line
+	10050 2150 9950 2150
+Text GLabel 10050 2050 2    45   BiDi ~ 0
+FMC_AD5
+Text GLabel 10050 2150 2    45   BiDi ~ 0
+FMC_AD6
+Text GLabel 10050 2250 2    45   BiDi ~ 0
+FMC_AD7
+Text GLabel 10050 2350 2    45   BiDi ~ 0
+FMC_AD8
+Wire Wire Line
+	10050 2350 9950 2350
+Wire Wire Line
+	9950 2250 10050 2250
+Wire Wire Line
+	10050 2450 9950 2450
+Wire Wire Line
+	10050 2550 9950 2550
+Wire Wire Line
+	9950 2650 10050 2650
+Text GLabel 10050 2450 2    45   BiDi ~ 0
+FMC_AD9
+Text GLabel 10050 2550 2    45   BiDi ~ 0
+FMC_AD10
+Text GLabel 10050 2650 2    45   BiDi ~ 0
+FMC_AD11
+Text GLabel 10050 2750 2    45   BiDi ~ 0
+FMC_AD12
+Wire Wire Line
+	10050 2750 9950 2750
+Text GLabel 7050 2400 2    45   BiDi ~ 0
+FMC_AD13
+Text GLabel 7050 2500 2    45   BiDi ~ 0
+FMC_AD14
+Text GLabel 7050 2600 2    45   BiDi ~ 0
+FMC_AD15
+Wire Wire Line
+	7050 2600 6950 2600
+Wire Wire Line
+	6950 2500 7050 2500
+Wire Wire Line
+	7050 2400 6950 2400
+Text GLabel 7050 2300 2    45   Output ~ 0
+FMC_NE1
+Wire Wire Line
+	7050 2300 6950 2300
+Text GLabel 7050 1900 2    45   Output ~ 0
+FMC_CLK
+Text GLabel 7050 2000 2    45   Output ~ 0
+FMC_NOE
+Text GLabel 7050 2100 2    45   Output ~ 0
+FMC_NWE
+Text GLabel 7050 2200 2    45   Input ~ 0
+FMC_WAIT
+Wire Wire Line
+	7050 2200 6950 2200
+Wire Wire Line
+	6950 2100 7050 2100
+Wire Wire Line
+	7050 2000 6950 2000
+Wire Wire Line
+	6950 1900 7050 1900
+Text GLabel 4100 2300 2    45   Output ~ 0
+FMC_NADV
+Wire Wire Line
+	4100 2300 4000 2300
+Text GLabel 5550 2600 0    45   Output ~ 0
+PLD_SCK
+Wire Wire Line
+	5550 2600 5650 2600
+Wire Wire Line
+	5550 2700 5650 2700
+Text GLabel 5550 2700 0    45   Input ~ 0
+PLD_MISO
+Text GLabel 5550 2800 0    45   Output ~ 0
+PLD_MOSI
+Wire Wire Line
+	5550 2800 5650 2800
+Text GLabel 7050 1800 2    45   Output ~ 0
+PLD_RST
+Wire Wire Line
+	6950 1800 7050 1800
+Text GLabel 4100 1900 2    45   Input ~ 0
+PLD_DONE
+Wire Wire Line
+	4100 1900 4000 1900
+Text GLabel 2600 2400 0    45   Output ~ 0
+PLD_CAUX
+Wire Wire Line
+	2600 2400 2700 2400
+$Comp
+L cowmod-mini:STM32F750V8 U1
+U 4 1 5E408D2C
+P 3350 5150
+F 0 "U1" H 3800 5550 60  0000 L CNN
+F 1 "STM32F750V8" H 3700 4750 45  0000 L CNN
+F 2 "cowmod-mini:TQFP100" H 3350 5150 60  0001 C CNN
+F 3 "" H 3350 5150 60  0000 C CNN
+	4    3350 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L cowmod-mini:GND #PWR0142
+U 1 1 5E408E3B
+P 3050 5650
+F 0 "#PWR0142" H 3050 5650 30  0001 C CNN
+F 1 "GND" H 3050 5580 30  0001 C CNN
+F 2 "" H 3050 5650 60  0000 C CNN
+F 3 "" H 3050 5650 60  0000 C CNN
+	1    3050 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L cowmod-mini:GND #PWR0143
+U 1 1 5E408E69
+P 3150 5650
+F 0 "#PWR0143" H 3150 5650 30  0001 C CNN
+F 1 "GND" H 3150 5580 30  0001 C CNN
+F 2 "" H 3150 5650 60  0000 C CNN
+F 3 "" H 3150 5650 60  0000 C CNN
+	1    3150 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L cowmod-mini:GND #PWR0144
+U 1 1 5E408E97
+P 3250 5650
+F 0 "#PWR0144" H 3250 5650 30  0001 C CNN
+F 1 "GND" H 3250 5580 30  0001 C CNN
+F 2 "" H 3250 5650 60  0000 C CNN
+F 3 "" H 3250 5650 60  0000 C CNN
+	1    3250 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L cowmod-mini:GND #PWR0145
+U 1 1 5E408EC5
+P 3350 5650
+F 0 "#PWR0145" H 3350 5650 30  0001 C CNN
+F 1 "GND" H 3350 5580 30  0001 C CNN
+F 2 "" H 3350 5650 60  0000 C CNN
+F 3 "" H 3350 5650 60  0000 C CNN
+	1    3350 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L cowmod-mini:GND #PWR0146
+U 1 1 5E408EF3
+P 3450 5650
+F 0 "#PWR0146" H 3450 5650 30  0001 C CNN
+F 1 "GND" H 3450 5580 30  0001 C CNN
+F 2 "" H 3450 5650 60  0000 C CNN
+F 3 "" H 3450 5650 60  0000 C CNN
+	1    3450 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 5650 3450 5600
+Wire Wire Line
+	3350 5600 3350 5650
+Wire Wire Line
+	3250 5650 3250 5600
+Wire Wire Line
+	3150 5600 3150 5650
+Wire Wire Line
+	3050 5650 3050 5600
+$Comp
+L cowmod-mini:GND #PWR0147
+U 1 1 5E40B618
+P 3650 5650
+F 0 "#PWR0147" H 3650 5650 30  0001 C CNN
+F 1 "GND" H 3650 5580 30  0001 C CNN
+F 2 "" H 3650 5650 60  0000 C CNN
+F 3 "" H 3650 5650 60  0000 C CNN
+	1    3650 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 5650 3650 5600
+Wire Wire Line
+	3050 4650 3150 4650
+Wire Wire Line
+	3450 4650 3450 4700
+Wire Wire Line
+	3350 4700 3350 4650
+Connection ~ 3350 4650
+Wire Wire Line
+	3350 4650 3450 4650
+Wire Wire Line
+	3250 4650 3250 4700
+Connection ~ 3250 4650
+Wire Wire Line
+	3250 4650 3350 4650
+Wire Wire Line
+	3150 4700 3150 4650
+Connection ~ 3150 4650
+Wire Wire Line
+	3150 4650 3250 4650
+Wire Wire Line
+	3050 4650 3050 4700
+Wire Wire Line
+	3250 4550 3250 4650
+$Comp
+L cowmod-mini:+3.3V #PWR0148
+U 1 1 5E4100AB
+P 3250 4550
+F 0 "#PWR0148" H 3250 4510 30  0001 C CNN
+F 1 "+3.3V" H 3259 4688 30  0000 C CNN
+F 2 "" H 3250 4550 60  0000 C CNN
+F 3 "" H 3250 4550 60  0000 C CNN
+	1    3250 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L cowmod-mini:+3.3V #PWR0149
+U 1 1 5E4100D9
+P 3650 4550
+F 0 "#PWR0149" H 3650 4510 30  0001 C CNN
+F 1 "+3.3V" H 3659 4688 30  0000 C CNN
+F 2 "" H 3650 4550 60  0000 C CNN
+F 3 "" H 3650 4550 60  0000 C CNN
+	1    3650 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4550 3650 4700
+$Comp
+L cowmod-mini:C C10
+U 1 1 5E435915
+P 4350 5600
+F 0 "C10" H 4400 5700 50  0000 L CNN
+F 1 "2.2uF" H 4400 5500 50  0000 L CNN
+F 2 "cowmod-mini:SMD0603" H 4350 5600 60  0001 C CNN
+F 3 "" H 4350 5600 60  0000 C CNN
+	1    4350 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L cowmod-mini:GND #PWR0153
+U 1 1 5E4359D4
+P 4350 5850
+F 0 "#PWR0153" H 4350 5850 30  0001 C CNN
+F 1 "GND" H 4350 5780 30  0001 C CNN
+F 2 "" H 4350 5850 60  0000 C CNN
+F 3 "" H 4350 5850 60  0000 C CNN
+	1    4350 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 5850 4350 5800
+Wire Wire Line
+	4150 5300 4350 5300
+Wire Wire Line
+	4350 5300 4350 5400
+$Comp
+L cowmod-mini:C C9
+U 1 1 5E4372DB
+P 4650 5600
+F 0 "C9" H 4700 5700 50  0000 L CNN
+F 1 "2.2uF" H 4700 5500 50  0000 L CNN
+F 2 "cowmod-mini:SMD0603" H 4650 5600 60  0001 C CNN
+F 3 "" H 4650 5600 60  0000 C CNN
+	1    4650 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 5400 4650 5200
+Wire Wire Line
+	4650 5200 4150 5200
+Wire Wire Line
+	4650 5850 4650 5800
+$Comp
+L cowmod-mini:GND #PWR0154
+U 1 1 5E438ECA
+P 4650 5850
+F 0 "#PWR0154" H 4650 5850 30  0001 C CNN
+F 1 "GND" H 4650 5780 30  0001 C CNN
+F 2 "" H 4650 5850 60  0000 C CNN
+F 3 "" H 4650 5850 60  0000 C CNN
+	1    4650 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L cowmod-mini:+3.3V #PWR0155
+U 1 1 5E438FA0
+P 4350 4550
+F 0 "#PWR0155" H 4350 4510 30  0001 C CNN
+F 1 "+3.3V" H 4359 4688 30  0000 C CNN
+F 2 "" H 4350 4550 60  0000 C CNN
+F 3 "" H 4350 4550 60  0000 C CNN
+	1    4350 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 4550 4350 5000
+Wire Wire Line
+	4350 5000 4150 5000
+$Comp
+L cowmod-mini:+3.3V #PWR0156
+U 1 1 5E439EA1
+P 4650 4550
+F 0 "#PWR0156" H 4650 4510 30  0001 C CNN
+F 1 "+3.3V" H 4659 4688 30  0000 C CNN
+F 2 "" H 4650 4550 60  0000 C CNN
+F 3 "" H 4650 4550 60  0000 C CNN
+	1    4650 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4550 4650 5100
+Wire Wire Line
+	4650 5100 4150 5100
+NoConn ~ 2550 5200
+NoConn ~ 2550 5300
+Text GLabel 2600 3100 0    45   Output ~ 0
+PLD_NSS
+Wire Wire Line
+	2600 3100 2700 3100
+$EndSCHEMATC
