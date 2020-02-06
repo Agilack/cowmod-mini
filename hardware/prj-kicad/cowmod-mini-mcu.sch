@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title "Cowmod mini"
 Date ""
 Rev "1"
@@ -387,4 +387,45 @@ Text GLabel 2600 3100 0    45   Output ~ 0
 PLD_NSS
 Wire Wire Line
 	2600 3100 2700 3100
+Text GLabel 2600 1700 0    45   Input ~ 0
+ETH_REF_CLK
+Wire Wire Line
+	2600 1700 2700 1700
+Text GLabel 2600 1800 0    45   BiDi ~ 0
+ETH_MDIO
+Wire Wire Line
+	2600 1800 2700 1800
+NoConn ~ 2700 1600
+Text GLabel 5550 1700 0    45   Output ~ 0
+ETH_MDC
+Wire Wire Line
+	5550 1700 5650 1700
+Text GLabel 5550 2000 0    45   Input ~ 0
+ETH_RXD0
+Text GLabel 5550 2100 0    45   Input ~ 0
+ETH_RXD1
+Wire Wire Line
+	5550 2100 5650 2100
+Wire Wire Line
+	5650 2000 5550 2000
+Wire Wire Line
+	4100 2800 4000 2800
+Wire Wire Line
+	4100 2900 4000 2900
+Text GLabel 4100 2800 2    45   Output ~ 0
+ETH_TXD0
+Text GLabel 4100 2900 2    45   Output ~ 0
+ETH_TXD1
+Wire Wire Line
+	4100 2700 4000 2700
+Text GLabel 4100 2700 2    45   Output ~ 0
+ETH_TXEN
+Text GLabel 2600 2200 0    45   Output ~ 0
+ETH_RST
+Wire Wire Line
+	2600 2200 2700 2200
+Text GLabel 2600 2300 0    45   Input ~ 0
+ETH_CRS_DV
+Wire Wire Line
+	2600 2300 2700 2300
 $EndSCHEMATC

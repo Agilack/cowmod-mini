@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title "Cowmod Mini"
 Date "2020-02-03"
 Rev "1"
@@ -434,5 +434,11 @@ S 4000 2600 2000 1500
 U 5E3AB11B
 F0 "Processor" 50
 F1 "cowmod-mini-mcu.sch" 50
+$EndSheet
+$Sheet
+S 1700 2600 2000 1500
+U 5E3BE106
+F0 "Ethernet Interface" 50
+F1 "network.sch" 50
 $EndSheet
 $EndSCHEMATC
