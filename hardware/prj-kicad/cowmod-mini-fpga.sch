@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -901,4 +901,31 @@ F 3 "" H 4200 7000 60  0000 C CNN
 	1    4200 7000
 	1    0    0    -1  
 $EndComp
+$Comp
+L cowmod-mini:+2.5V #PWR0194
+U 1 1 5E40FB1C
+P 3050 4800
+F 0 "#PWR0194" H 3050 4760 30  0001 C CNN
+F 1 "+2.5V" H 3059 4938 30  0000 C CNN
+F 2 "" H 3050 4800 60  0000 C CNN
+F 3 "" H 3050 4800 60  0000 C CNN
+	1    3050 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 4800 3050 4950
+$Comp
+L cowmod-mini:+3.3V #PWR0195
+U 1 1 5E42297E
+P 2850 4800
+F 0 "#PWR0195" H 2850 4760 30  0001 C CNN
+F 1 "+3.3V" H 2859 4938 30  0000 C CNN
+F 2 "" H 2850 4800 60  0000 C CNN
+F 3 "" H 2850 4800 60  0000 C CNN
+	1    2850 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 4800 2850 4950
+NoConn ~ 2950 4950
 $EndSCHEMATC
