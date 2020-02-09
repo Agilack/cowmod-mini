@@ -585,4 +585,89 @@ F 3 "" H 2150 6650 60  0000 C CNN
 	1    2150 6650
 	1    0    0    -1  
 $EndComp
+$Comp
+L cowmod-mini:M25P16-VME U4
+U 1 1 5E405974
+P 6950 5150
+F 0 "U4" H 7150 5600 60  0000 C CNN
+F 1 "M25P16-VME" H 7350 4700 60  0000 C CNN
+F 2 "cowmod-mini:SOIC-8E" H 6950 5150 60  0001 C CNN
+F 3 "" H 6950 5150 60  0000 C CNN
+	1    6950 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L cowmod-mini:+3.3V #PWR0203
+U 1 1 5E405B0F
+P 6950 4600
+F 0 "#PWR0203" H 6950 4560 30  0001 C CNN
+F 1 "+3.3V" H 6959 4738 30  0000 C CNN
+F 2 "" H 6950 4600 60  0000 C CNN
+F 3 "" H 6950 4600 60  0000 C CNN
+	1    6950 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 4600 6950 4700
+Wire Wire Line
+	6950 5650 6950 5600
+$Comp
+L cowmod-mini:GND #PWR0204
+U 1 1 5E40A5C9
+P 6950 5650
+F 0 "#PWR0204" H 6950 5650 30  0001 C CNN
+F 1 "GND" H 6950 5580 30  0001 C CNN
+F 2 "" H 6950 5650 60  0000 C CNN
+F 3 "" H 6950 5650 60  0000 C CNN
+	1    6950 5650
+	1    0    0    -1  
+$EndComp
+Text GLabel 4100 2200 2    45   Output ~ 0
+MEM_CS
+Wire Wire Line
+	4100 2200 4000 2200
+Wire Wire Line
+	6350 5000 6450 5000
+Text GLabel 6350 5000 0    45   Input ~ 0
+MEM_CS
+Text GLabel 4100 1800 2    45   Output ~ 0
+MEM_CLK
+Wire Wire Line
+	4100 1800 4000 1800
+Wire Wire Line
+	6350 5300 6450 5300
+Text GLabel 6350 5300 0    45   Input ~ 0
+MEM_CLK
+Text GLabel 7500 4900 2    45   BiDi ~ 0
+MEM_IO0
+Text GLabel 7500 5050 2    45   BiDi ~ 0
+MEM_IO1
+Text GLabel 7500 5250 2    45   BiDi ~ 0
+MEM_IO2
+Text GLabel 7500 5400 2    45   BiDi ~ 0
+MEM_IO3
+Wire Wire Line
+	7500 5400 7400 5400
+Wire Wire Line
+	7400 5250 7500 5250
+Wire Wire Line
+	7500 5050 7400 5050
+Wire Wire Line
+	7400 4900 7500 4900
+Text GLabel 5550 2500 0    45   BiDi ~ 0
+MEM_IO0
+Wire Wire Line
+	5550 2500 5650 2500
+Text GLabel 7050 2900 2    45   BiDi ~ 0
+MEM_IO3
+Wire Wire Line
+	7050 2900 6950 2900
+Text GLabel 7050 2800 2    45   BiDi ~ 0
+MEM_IO1
+Wire Wire Line
+	7050 2800 6950 2800
+Text GLabel 8550 2250 0    45   BiDi ~ 0
+MEM_IO2
+Wire Wire Line
+	8550 2250 8650 2250
 $EndSCHEMATC
